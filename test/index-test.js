@@ -4,7 +4,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
-  const new_arrays= old_array.concat 
+  const new_arrays= old_array.concat(kittens) 
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
